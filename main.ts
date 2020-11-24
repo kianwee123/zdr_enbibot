@@ -8,7 +8,7 @@ load dependency
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace bitbot_显示类 {
+namespace bitbot_Display {
     
     export enum enColor {
 
@@ -161,7 +161,7 @@ namespace bitbot_显示类 {
  ****************************************************************************************************************************************/
 
 //% color="#87CEEB" weight=24 icon="\uf1b6"
-namespace bitbot_传感器类 {
+namespace bitbot_Sensors {
 
     export enum enVoice {
         //% blockId="Voice" block="有声音"
@@ -265,7 +265,7 @@ namespace bitbot_传感器类 {
  ****************************************************************************************************************************************/
 
 //% color="#808080" weight=23 icon="\uf11c"
-namespace bitbot_输入类 {
+namespace bitbot_Input {
 
     export enum enRocker {
         //% blockId="Nostate" block="无"
@@ -378,7 +378,7 @@ namespace bitbot_输入类 {
  ****************************************************************************************************************************************/
 
 //% color="#D2691E" weight=22 icon="\uf001"
-namespace bitbot_音乐类 {
+namespace bitbot_Music {
     export enum enBuzzer {
 
         //% blockId="NoBeep" block="不响"
@@ -407,7 +407,7 @@ namespace bitbot_音乐类 {
  ****************************************************************************************************************************************/
 
 //% color="#0000CD" weight=21 icon="\uf185"
-namespace bitbot_电机类 {
+namespace bitbot_Motor {
 
     //% blockId=mbit_Fan block="Fan|pin %pin|speed %value"
     //% weight=100
@@ -436,7 +436,7 @@ namespace bitbot_电机类 {
 }
 
 //% color="#006400" weight=20 icon="\uf1b9"
-namespace bitbot_小车类 {
+namespace bitbot_Car {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
