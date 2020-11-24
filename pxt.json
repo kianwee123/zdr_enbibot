@@ -1,0 +1,23 @@
+{
+    "name": "bitbot",
+    "version": "1.0.1",
+    "description": "Extension for Bitbot V1.0.1",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:kianwee123/pxt-neopixel",
+        "bitbot_IR": "github:kianwee123/zdr_bitbot_ir"
+	
+
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/en/mbit-strings.json"
+
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
